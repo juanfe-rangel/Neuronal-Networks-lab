@@ -133,13 +133,11 @@ CNNs encode 3 assumptions about image data:
 
 ### When Convolution is NOT Appropriate
 
-**❌ Tabular Data** (age, income, zip) - no spatial structure  
-**❌ Graph Data** (social networks) - irregular connectivity  
-**❌ Long Sequences** (language) - limited receptive field  
-**❌ Permutation-Invariant Data** (sets) - order doesn't matter  
-**❌ Non-Uniform Importance** (position-specific meaning)
-
-**Principle:** Use CNNs when data has grid-like structure and local patterns that compose hierarchically.
+** Tabular Data** (age, income, zip) - no spatial structure  
+** Graph Data** (social networks) - irregular connectivity  
+** Long Sequences** (language) - limited receptive field  
+** Permutation-Invariant Data** (sets) - order doesn't matter  
+** Non-Uniform Importance** (position-specific meaning)
 
 ---
 
@@ -163,6 +161,4 @@ jupyter notebook neuronalNetworkLab.ipynb
 ---
 
 ## Authors
-
-**Course:** Fundamentos de Deep Learning y Sistemas Inteligentes  
-**Date:** February 2026
+Juan Felipe Rangel Rodriguez
